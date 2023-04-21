@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+.con{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    border: 10px solid silver;
+    
+    
+}
+
+.feed{
+        width: 100%;
+        height: 20%;
+        color: #fff;
+        font-size: 60px;
+        font-weight: 600;
+        
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+}
+
+.number{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,1fr);
+}
+
+.number > button{
+    border-radius: 100%;
+
+}
+
+.ulbarshar{
+    background-color: orange;
+    color: #fff;
+    font-size: 35px;
+}
+.saaral{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    font-size: 35px;
+}
+.saral{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    grid-row: 1fr, span(2 fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+

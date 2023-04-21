@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.tavan{
+    background-color: rgb(88, 232, 88);
+    color: aliceblue;
+    font-size: 15px;
+    
+    
+}
+.arvan{
+    background-color: rgb(125, 240, 125);
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+.taga{
+    margin-left: 250px;
+    font-size: 25px;
+
+}
+.img{
+    height: 70px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

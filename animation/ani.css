@@ -1,0 +1,130 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.solar-system{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: yellow;
+    position: relative;
+    z-index: 1;
+}
+.earth-line{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 1px solid silver;
+    position: fixed;
+    z-index: 2;
+    animation: earth 10s linear infinite;
+}
+@keyframes earth {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+.earth{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin-top: 80px;
+}
+.mercury-line{
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    border: 1px solid silver;
+    position: fixed;
+    z-index: 3;
+    animation: mercury 2s linear infinite;
+}
+@keyframes mercury {
+from{transform: rotate(0deg);}
+from{transform: rotate(359deg)}
+
+}
+.mercury{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: brown;
+    margin-top: 60px;
+}
+.venus-line{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 1px solid silver;
+    position: fixed;
+    z-index: 4 ;   
+    animation: venus 5s linear infinite; 
+}
+@keyframes venus {
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+.venus{
+   width: 55px;
+   height: 55px;
+   border-radius: 100%;
+   background-color: blue;
+   margin-top: 50px;
+}
+.mars-line{
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    border: 1px solid silver;
+    position: fixed;
+    z-index: 5;
+    animation: mars 15s linear infinite;
+}
+@keyframes mars {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+.mars{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: blueviolet;
+    margin-top: 200px;
+}
+.back{
+    width: 2500px;
+    height: 1200px;
+
+}
+.jupiter-line{
+    width: 900px;
+    height: 900px;
+    border-radius: 100%;
+    border: 1px solid silver;
+    position:fixed;
+    z-index: 5;
+    animation: jupiter 30s linear infinite;
+} 
+@keyframes jupiter{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+.jupiter{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: rgb(212, 167, 100);
+    margin-top: 250px;
+}
+
+
+
+
